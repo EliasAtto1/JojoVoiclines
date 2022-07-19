@@ -1,0 +1,379 @@
+loadstring(game:HttpGet("https://icxy.xyz/NovaGui/CreateAScript", true))()
+--Jotaro
+--Dio
+--Kira
+--Diego Brando
+--Diavolo
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Jojo Voicelines.              Best Voicline Thing I Have Made", "DarkTheme")
+local Main = Window:NewTab("Jotaro Mode")
+local MainSection = Main:NewSection("Jotaro Mode")
+MainSection:NewLabel("Summon Voiclines")
+MainSection:NewButton("Star Platinum : OverHeaven", "", function()
+chat("Star Platinum : OverHeaven")
+    PlaySound(5684695930, true)
+    wait(1)
+end)
+MainSection:NewButton("Star Platinum, Za Warudo!", "", function()
+chat("Star Platinum, Za Warudo!")
+    PlaySound(5736107502, true)
+    wait(1)
+end)
+MainSection:NewButton("Star Platinum!", "", function()
+chat("Star Platinum!")
+    PlaySound(2554017604, true)
+    wait(1)
+end)
+MainSection:NewLabel("Jotaro Speaking")
+MainSection:NewButton("Yare Yare Daze...", "", function()
+chat("Yare Yare Daze...")
+    PlaySound(6670645219, true)
+    wait(1)
+end)
+MainSection:NewButton("Yare Yare Daze..", "", function()
+chat("Yare Yare Daze..")
+    PlaySound(8883559770, true)
+    wait(1)
+end)
+MainSection:NewButton("Shut up! Don't be such a pain, woman!", "", function()
+chat("Shut up! Don't be such a pain, woman!")
+    PlaySound(6066726827, true)
+    wait(1)
+end)
+MainSection:NewButton("Time is now soon to flow...!", "", function()
+chat("Time is now soon to flow...!")
+    PlaySound(6769327870, true)
+    wait(1)
+end)
+MainSection:NewButton("DIO!", "", function()
+chat("DIO!")
+    PlaySound(8366433287, true)
+    wait(1)
+end)
+MainSection:NewButton("I'll be the judge!", "", function()
+chat("I'll be the judge!")
+    PlaySound(5344619446, true)
+    wait(1)
+end)
+MainSection:NewButton("You Will Definitely Pay!", "", function()
+chat("You Will Definitely Pay!")
+    PlaySound(4903895449, true)
+    wait(1)
+end)
+MainSection:NewButton("ORA ORA ORA ORA ORA!", "", function()
+chat("ORA ORA ORA ORA ORA ORA ORA ORAA")
+    PlaySound(6678126154, true)
+    wait(1)
+end)
+MainSection:NewButton("But For You, I Feel No Pity At All..", "", function()
+chat("But For You, I Feel No Pity At All..")
+    PlaySound(6678126154, true)
+    wait(1)
+end)
+MainSection:NewButton("I Held Back..", "", function()
+chat("I Held Back..")
+    PlaySound(5261021079, true)
+    wait(1)
+end)
+MainSection:NewButton("Shut up!", "", function()
+chat("Shut up!")
+    PlaySound(8769065286, true)
+    wait(1)
+end)
+MainSection:NewButton("Huh!?!?", "", function()
+chat("Huh!?!?")
+    PlaySound(8366720886, true)
+    wait(1)
+end)
+local u = Window:NewTab("Dio Mode")
+local Dio = u:NewSection("Dio Mode")
+Dio:NewButton("ZA WARUDO : OVER HEAVEN", "", function()
+chat("ZA WARUDO : OVER HEAVEN")
+    PlaySound(5129686200, true)
+    wait(1)
+end)
+Dio:NewButton("MUDA MUDA MUDA MUDA MUDA MUDAA", "", function()
+chat("MUDA MUDA MUDA MUDA MUDA MUDA MUDAA")
+    PlaySound(4968518358, true)
+    wait(1)
+end)
+Dio:NewButton("you dare to resist my reality?!", "", function()
+chat("You Dare To Resist My Reality?!")
+    PlaySound(3516206013, true)
+    wait(1)
+end)
+Dio:NewButton("This Is Reality!", "", function()
+chat("This Is Reality!")
+    PlaySound(3516209683, true)
+    wait(1)
+end)
+Dio:NewButton("reality bend to my will", "", function()
+chat("Reality Bend To My Will.")
+    PlaySound(3520725457, true)
+    wait(1)
+end)
+Dio:NewButton("no one can destroy my reality", "", function()
+chat("No One Can Destroy My Reality.")
+    PlaySound(3520733618, true)
+    wait(1)
+end)
+Dio:NewButton("this is the path to heaven", "", function()
+chat("This Is The Path To Heaven.")
+    PlaySound(3520741614, true)
+    wait(1)
+end)
+Dio:NewButton("You Fool!", "", function()
+chat("You Fool!")
+    PlaySound(2554775814, true)
+    wait(1)
+end)
+Dio:NewButton("This is the end!", "", function()
+chat("This Is The End!")
+    PlaySound(2558554898, true)
+    wait(1)
+end)
+Dio:NewButton("Weak!", "", function()
+chat("Weak!")
+    PlaySound(4148531112, true)
+    wait(1)
+end)
+local p = Window:NewTab("Kira Mode")
+local Kira = p:NewSection("Kira Mode")
+Kira:NewLabel("Adding More If I Can")
+Kira:NewButton("Killer Queen!", "", function()
+chat("Killer Queen!")
+    PlaySound(2652080817, true)
+    wait(1)
+end)
+Kira:NewButton("Third Bomb!", "", function()
+chat("Third Bomb!")
+    PlaySound(2652099910, true)
+    wait(1)
+end)
+local p = Window:NewTab("Diego Brando Mode")
+local Diego = p:NewSection("Diego Brando Mode")
+Diego:NewLabel("Adding More If I Can")
+Diego:NewButton("Time Resumes!", "", function()
+chat("Time Resumes")
+    PlaySound(3084539117, true)
+    wait(1)
+end)
+Diego:NewButton("WRYYYYYYYYYYYAAAAAAAH!", "", function()
+chat("WRYYYYYYYYYYYAAAAAAAH!")
+    PlaySound(3084528387, true)
+    wait(1)
+end)
+Diego:NewButton("USHAAAAAAAAAAA!", "", function()
+chat("USHAAAAAAAAAAA!")
+    PlaySound(3084502155, true)
+    wait(1)
+end)
+Diego:NewButton("Za Warudo! Time Resumes!", "", function()
+chat("Za Warudo! Time Resumes!")
+    PlaySound(3084495179, true)
+    wait(1)
+end)
+local r = Window:NewTab("Diavolo Mode")
+local Diavolo = r:NewSection("Diavolo Mode")
+Diavolo:NewButton("This is king Crimson's ability", "", function()
+chat("This is king Crimson's ability")
+    PlaySound(3373967354, true)
+    wait(1)
+end)
+Diavolo:NewButton("King Crimson!", "", function()
+chat("King Crimson!")
+    PlaySound(3373956700, true)
+    wait(1)
+end)
+Diavolo:NewButton("Take This!", "", function()
+chat("Take This!")
+    PlaySound(3373975760, true)
+    wait(1)
+end)
+Diavolo:NewButton("This Is A Test...", "", function()
+chat("This Is A Test...")
+    PlaySound(3374531743, true)
+    wait(1)
+end)
+Diavolo:NewButton("You Vile Pukes!", "", function()
+chat("You Vile Pukes!")
+    PlaySound(6120821768, true)
+    wait(1)
+end)
+Diavolo:NewButton("I, Diavolo. Will be king!", "", function()
+chat("I, Diavolo. Will be king!")
+    PlaySound(5278196952, true)
+    wait(1)
+end)
+Diavolo:NewButton("A person grows once...", "", function()
+chat("A person grows once...")
+    PlaySound(6665063219, true)
+    wait(1)
+end)
+Diavolo:NewButton("What you Just saw, What just hit you, was ME!", "", function()
+chat("What you Just saw, What just hit you, was ME!")
+    PlaySound(5258899114, true)
+    wait(1)
+end)
+local o = Window:NewTab("Miscs")
+local Miscs = o:NewSection("Miscs")
+Miscs:NewButton("JOJO Animation", "", function()
+   local Animate = game.Players.LocalPlayer.Character.Animate
+    Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1149612882"
+    Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1149612882"
+    Animate.run.RunAnim.AnimationId = "rbxassetid://1150967949"
+    Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1148863382"
+    Animate.walk.WalkAnim.AnimationId = "rbxassetid://657552124"
+    Animate.climb.ClimbAnim.AnimationId = "rbxassetid://658360781"
+    Animate.fall.FallAnim.AnimationId = "rbxassetid://1148863382"
+    Animate.swim.Swim.AnimationId = "rbxassetid://657560551"
+    Animate.swimidle.SwimIdle.AnimationId = "rbxassetid://657557095"
+    game.Players.LocalPlayer.Character.Humanoid.Jump = false
+end)
+Miscs:NewButton("Fly [X]", "e?", function()
+local L_143_ = game.Players.LocalPlayer
+	local L_144_ = L_143_:GetMouse()
+	localplayer = L_143_
+	if workspace:FindFirstChild("Core") then
+		workspace.Core:Destroy()
+	end
+	local L_145_ = Instance.new("Part")
+	L_145_.Name = "Core"
+	L_145_.Size = Vector3.new(0.05, 0.05, 0.05)
+	spawn(function()
+		L_145_.Parent = workspace
+		local L_152_ = Instance.new("Weld", L_145_)
+		L_152_.Part0 = L_145_
+		L_152_.Part1 = localplayer.Character.LowerTorso
+		L_152_.C0 = CFrame.new(0, 0, 0)
+	end)
+	workspace:WaitForChild("Core")
+	local L_146_ = workspace.Core
+	flying = true
+	local L_147_ = 25
+	local L_148_ = {
+		a = false,
+		d = false,
+		w = false,
+		s = false
+	}
+	local L_149_
+	local L_150_
+	local function L_151_func()
+		local L_153_ = Instance.new("BodyPosition", L_146_)
+		local L_154_ = Instance.new("BodyGyro", L_146_)
+		L_153_.Name = "EPIXPOS"
+		L_153_.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+		L_153_.position = L_146_.Position
+		L_154_.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		L_154_.cframe = L_146_.CFrame
+		repeat
+			wait()
+			localplayer.Character.Humanoid.PlatformStand = true
+			local L_155_ = L_154_.cframe - L_154_.cframe.p + L_153_.position
+			if not L_148_.w and not L_148_.s and not L_148_.a and not L_148_.d then
+				L_147_ = 25
+			end
+			if L_148_.w then
+				L_155_ = L_155_ + workspace.CurrentCamera.CoordinateFrame.lookVector * L_147_
+				L_147_ = L_147_ + 0
+			end
+			if L_148_.s then
+				L_155_ = L_155_ - workspace.CurrentCamera.CoordinateFrame.lookVector * L_147_
+				L_147_ = L_147_ + 0
+			end
+			if L_148_.d then
+				L_155_ = L_155_ * CFrame.new(L_147_, 0, 0)
+				L_147_ = L_147_ + 0
+			end
+			if L_148_.a then
+				L_155_ = L_155_ * CFrame.new(-L_147_, 0, 0)
+				L_147_ = L_147_ + 0
+			end
+			if L_147_ > 10 then
+				L_147_ = 25
+			end
+			L_153_.position = L_155_.p
+			if L_148_.w then
+				L_154_.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad(L_147_ * 0), 0, 0)
+			elseif L_148_.s then
+				L_154_.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(math.rad(L_147_ * 0), 0, 0)
+			else
+				L_154_.cframe = workspace.CurrentCamera.CoordinateFrame
+			end
+		until flying == false
+		if L_154_ then
+			L_154_:Destroy()
+		end
+		if L_153_ then
+			L_153_:Destroy()
+		end
+		flying = false
+		localplayer.Character.Humanoid.PlatformStand = false
+		L_147_ = 25
+	end
+	L_149_ = L_144_.KeyDown:connect(function(L_156_arg0)
+		if not L_146_ or not L_146_.Parent then
+			flying = false
+			L_149_:disconnect()
+			L_150_:disconnect()
+			return
+		end
+		if L_156_arg0 == "w" then
+			L_148_.w = true
+		elseif L_156_arg0 == "s" then
+			L_148_.s = true
+		elseif L_156_arg0 == "a" then
+			L_148_.a = true
+		elseif L_156_arg0 == "d" then
+			L_148_.d = true
+		elseif L_156_arg0 == "x" then
+			if flying == true then
+				flying = false
+			else
+				flying = true
+				L_151_func()
+			end
+		end
+	end)
+	L_150_ = L_144_.KeyUp:connect(function(L_157_arg0)
+		if L_157_arg0 == "w" then
+			L_148_.w = false
+		elseif L_157_arg0 == "s" then
+			L_148_.s = false
+		elseif L_157_arg0 == "a" then
+			L_148_.a = false
+		elseif L_157_arg0 == "d" then
+			L_148_.d = false
+		end
+	end)
+	L_151_func()
+end)
+Miscs:NewButton("Chat Logs", "e?", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nzXicwc1", true))()
+end)
+Miscs:NewButton("Infinite Yield", "e?", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+Miscs:NewButton("Nova Gui [Will Take Long]", "e?", function()
+loadstring(game:HttpGet("https://icxy.xyz/NovaGui/NovaGui", true))()
+end)
+local Main = Window:NewTab("GUI Settings")
+local Section = Main:NewSection("GUI Settings")
+Section:NewKeybind("Toggle GUI", "e?", Enum.KeyCode.V, function()
+	Library:ToggleUI()
+end)
+local u = Window:NewTab("Credits")
+local Credits = u:NewSection("Credits")
+Credits:NewLabel("Icxy👑⭐️")
+Credits:NewLabel("elias.#6231")
+Credits:NewLabel("MSG ME FOR ANY PROBLEMS ^^^^")
+--Loadup Notification
+ game.StarterGui:SetCore("SendNotification", {
+    Title = "Jojo Voicelines",
+    Text = "Succesfully Loaded!",
+    Icon = 'http://www.roblox.com/asset/?id=8191258934',
+    Duration = 3;
+    }) 
