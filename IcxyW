@@ -1,13 +1,16 @@
 loadstring(game:HttpGet("https://icxy.xyz/NovaGui/CreateAScript", true))()
---Jotaro
---Dio
---Kira
---Diego Brando
---Diavolo
-
+--//Jotaro
+--//Dio
+--//Kira
+--//Diego Brando
+--//Diavolo
+--//Goku
+--//Goku Black
+--//Vegeta
+--// Updating Soon!
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Jojo Voicelines.              Best Voicline Thing I Have Made", "DarkTheme")
+local Window = Library.CreateLib("ANIME VOICELINES GUI Made By elias.6231", "DarkTheme")
 local Main = Window:NewTab("Jotaro Mode")
 local MainSection = Main:NewSection("Jotaro Mode")
 MainSection:NewLabel("Summon Voiclines")
@@ -69,7 +72,7 @@ chat("ORA ORA ORA ORA ORA ORA ORA ORAA")
 end)
 MainSection:NewButton("But For You, I Feel No Pity At All..", "", function()
 chat("But For You, I Feel No Pity At All..")
-    PlaySound(5842011186, true)
+    PlaySound(6678126154, true)
     wait(1)
 end)
 MainSection:NewButton("I Held Back..", "", function()
@@ -216,6 +219,70 @@ Diavolo:NewButton("What you Just saw, What just hit you, was ME!", "", function(
 chat("What you Just saw, What just hit you, was ME!")
     PlaySound(5258899114, true)
     wait(1)
+end)
+local p = Window:NewTab("Extra Voicelines")
+local Goku = p:NewSection("Goku Mode")
+Goku:NewButton("Hey! Its Me Goku", "", function()
+chat("Hey! Its Me Goku")
+PlaySound(5612259294, true)
+end)
+Goku:NewButton("Ultra Instic Theme Song", "", function()
+chat("...")
+PlaySound(6427919074, true)
+end)
+Goku:NewButton("Kaioken! 10X!", "", function()
+chat("Kaioken! 10X!")
+PlaySound(1574062497, true)
+end)
+Goku:NewButton("Get Ready, For The Real Deal!", "", function()
+chat("Get Ready, For The Real Deal!")
+PlaySound(3993574860, true)
+end)
+Goku:NewButton("RAHHHH.. RAHHHHHHHHHHHHHHHH!!", "", function()
+chat("RAHHHH.. RAHHHHHHHHHHHHHHHH!!")
+PlaySound(2661734130, true)
+end)
+Goku:NewButton("HEEEEEEEEEEEEEEEEEEEEEHHHHHHH AHHH!!!", "", function()
+chat("HEEEEEEEEEEEEEEEEEEEEEHHHHHHH AHHH!!!")
+PlaySound(2659098182, true)
+end)
+Goku:NewButton("HEEEEEEEEEEEEEEEEEEEEEHHHHHHH AHHH!!!", "", function()
+chat("HEEEEEEEEEEEEEEEEEEEEEHHHHHHH AHHH!!!")
+PlaySound(2659098182, true)
+end)
+Goku:NewButton("RAHHHHHGGGGHHHHHHHHHHHHHH!!!!", "", function()
+chat("RAHHHHHGGGGHHHHHHHHHHHHHH!!!!")
+PlaySound(2659098182, true)
+end)
+local Vegeta = p:NewSection("Vegeta Mode")
+Vegeta:NewButton("FINAL FLASH!", "", function()
+chat("FINAL FLASH!")
+PlaySound(950551676, true)
+end)
+local GokuBlack = p:NewSection("Goku Black Mode")
+GokuBlack:NewButton("My Vision For The World Shall Be Realized!", "", function()
+chat("My Vision For The World Shall Be Realized!")
+PlaySound(966261603, true)
+end)
+GokuBlack:NewButton("You Will Kneel Before Me!", "", function()
+chat("You Will Kneel Before Me!")
+PlaySound(966268002, true)
+end)
+GokuBlack:NewButton("Feel The Fury Of A God!", "", function()
+chat("Feel The Fury Of A God!")
+PlaySound(966264954, true)
+end)
+GokuBlack:NewButton("How Dare You, Defy A God!", "", function()
+chat("How Dare You, Defy A God!")
+PlaySound(966270845, true)
+end)
+GokuBlack:NewButton("The Peaful World Has No Need For Humans, Your Pointless!", "", function()
+chat("The Peaful World Has No Need For Humans, Your Pointless!")
+PlaySound(966269704, true)
+end)
+GokuBlack:NewButton("Don't You Dare Keep Me Waiting!", "", function()
+chat("Don't You Dare Keep Me Waiting!")
+PlaySound(966262774, true)
 end)
 local o = Window:NewTab("Miscs")
 local Miscs = o:NewSection("Miscs")
@@ -372,7 +439,7 @@ Credits:NewLabel("elias.#6231")
 Credits:NewLabel("MSG ME FOR ANY PROBLEMS ^^^^")
 --Loadup Notification
  game.StarterGui:SetCore("SendNotification", {
-    Title = "Jojo Voicelines",
+    Title = "Anime Voicelines Voicelines",
     Text = "Succesfully Loaded!",
     Icon = 'http://www.roblox.com/asset/?id=8191258934',
     Duration = 3;
